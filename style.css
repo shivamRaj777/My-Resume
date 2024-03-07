@@ -1,0 +1,81 @@
+.profile{
+    border-radius: 50%;
+    width:140px;
+    height: 140px;
+    margin-left:10px;
+    border:2px solid grey;
+}
+.headerpart{
+    display: inline-block;
+}
+
+body {
+    background: rgb(204,204,204); 
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+  }
+a{
+    color: black;
+    margin-left: 400px;
+}
+
+i{
+    margin-left: 4px;
+   
+}
+b{
+    margin-left: 7px;
+}
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    position: relative;
+    border: 1px solid black;
+  }
+
+  page[size="A4"] {  
+    width: 21cm;
+    height: 30.7cm; 
+  }
+
+  @page {
+    size: 21cm 29.7cm;
+    margin: 0mm;
+  }
+
+  .summary{
+    color: lightslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin-left: 4px;
+  }
+  ul{
+    color: lightslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    
+  }
+  .halfproject1{
+    width: 73%;
+    padding: 10px;
+    position: relative;
+    
+  }
+  .container {
+    display: flex;
+}
+.list{
+  font-size:11.5px;
+}
+.halfproject{
+  width: 25%;
+  padding-left: 8px;
+  /*border: 1px double lightgrey;*/
+  box-shadow: inset;
+  margin-top: 10px;
+  border-left: 2px solid lightgray ;
+  
+}
